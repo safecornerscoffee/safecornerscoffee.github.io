@@ -38,7 +38,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b main",
+    "deploy": "gatsby build && gh-pages -d public -b main -r https://$GH_TOKEN@github.com/safecornerscoffee/safecornerscoffee.github.io",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
